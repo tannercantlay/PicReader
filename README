@@ -1,8 +1,7 @@
 This app reads images and converts them to text
 """
 TODO:
-    add prompts for file location
-    Figure out scans?
+    Optimize scans
     figure out how to run on webapp
-    Build webpages and server
+    setup views in Django
 """

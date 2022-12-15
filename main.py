@@ -84,8 +84,9 @@ def convertToScan(image):
     gray = cv2.bilateralFilter(gray, 11, 17, 17)
 
     #smooth the edges some with medialBlur
-    gray = cv2.medianBlur(gray, 5)
+    #gray = cv2.medianBlur(gray, 5)
 
+    cv2.imshow("grayed", gray )
     #detect the edges with canny algorithm
     edged = cv2.Canny(gray, 30, 400)
 
