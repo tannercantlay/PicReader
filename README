@@ -1,7 +1,9 @@
-This app reads images and converts them to text
-"""
+Disclaimer: Project is still in its infancy
+
+This app reads images and converts them to text 
+
 TODO:
     Optimize scans
     figure out how to run on webapp
     setup views in Django
-"""
+    Setup Readme
